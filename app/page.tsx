@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
@@ -12,11 +11,11 @@ export default function Home() {
     <main className="overflow-hidden">
       <Header />
       <Hero />
-      <Features />
+      {/* <Features />
       <Pricing />
       <Faq />
       <Download />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }
