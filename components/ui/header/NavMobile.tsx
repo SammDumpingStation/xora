@@ -20,11 +20,11 @@ const NavMobile = () => {
           <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
             <ul className="flex max-lg:block max-lg:px-12">
               <li className="nav-li">
-                <Link href={""} className="nav-styles">
+                <Link href={"#features"} className="nav-styles">
                   features
                 </Link>
                 <div className="dot" />
-                <Link href={""} className="nav-styles">
+                <Link href={"#pricing"} className="nav-styles">
                   pricing
                 </Link>
                 <div className="dot" />
@@ -45,7 +45,7 @@ const NavMobile = () => {
                 </Link>
               </li>
               <li className="nav-li">
-                <Link href={""} className="nav-styles">
+                <Link href={"#faq"} className="nav-styles">
                   faq
                 </Link>
                 <div className="dot" />
@@ -77,7 +77,7 @@ const NavMobile = () => {
       <Button
         variant={"ghost"}
         size={"icon"}
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={() => setIsOpen((prev) => !prev)}
         className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
       >
         <Image
