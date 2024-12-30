@@ -94,6 +94,12 @@ body {
 }
 
 @layer utilities {
+  /* My Own Custom Classes */
+
+  .nav-styles {
+    @apply base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h5;
+  }
+
   /* START of Typography */
   .h-num {
     @apply font-inter text-[72px] font-bold leading-[84px];
