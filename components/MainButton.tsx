@@ -40,6 +40,7 @@ const MainButton = ({
         <span className="relative z-2 font-poppins base-bold text-p1 uppercase">
           {children}
         </span>
+        <span className="glow-before glow-after"></span>
       </span>
     </>
   );
