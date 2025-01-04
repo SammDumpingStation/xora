@@ -1,4 +1,5 @@
 import MainButton from "@/components/MainButton";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -17,6 +18,15 @@ const Hero = () => {
             learn, and surprisingly powerful.
           </p>
           <MainButton icon="/images/zap.svg">Try it now</MainButton>
+        </div>
+        <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
+          <Image
+            src={"/images/hero.png"}
+            className="max-lg:h-auto"
+            alt="hero"
+            width={1230}
+            height={1230}
+          />
         </div>
       </div>
     </section>
